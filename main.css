@@ -78,6 +78,7 @@ body{
 	width: 800px;
 	/*height: 800px;*/
 	margin: 0 auto;
+	padding-bottom: 50px;
 }
 
 .aboutblurb{
@@ -108,8 +109,8 @@ body{
 }
 
 .event{
-	width: 600px;
-	height: 222px;
+	width: 400px;
+	height: 600px;
 	margin: 0 auto;
 }
 
@@ -144,8 +145,8 @@ body{
 	margin-top: 20px;
 	margin-left: 40px;
 	position: relative;
-	border: 2px solid #FF6666;
-	border-radius: 5px;
+/*	border: 2px solid #FF6666;
+*/	border-radius: 5px;
 	padding: 5px 0px 0px 5px;
 	display: none;
 }
