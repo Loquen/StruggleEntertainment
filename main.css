@@ -70,112 +70,10 @@ body{
 
 .navigation span{
 	padding:10px 90px 10px 90px;
+	width: 100px;
+	height: 40;
 	border: 2px solid #FF6666;
 	border-radius: 5px;
-}
-
-.main{
-	width: 800px;
-	/*height: 800px;*/
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
-
-.aboutblurb{
-	height: 250px;
-	width: 700px;
-	margin-top: 20px;
-	margin-left: 40px;
-	position: relative;
-	/*border: 2px solid #FF6666;*/
-	border-radius: 5px;
-	padding: 5px 0px 0px 5px;
-}
-
-.social{
-	padding-top: 20px;
-	height: 50px;
-	width: 200px;
-	
-}
-
-#facebook{
-	width: 55px;
-	margin-right: 10px;
-}
-
-#instagram{
-	width: 55px;
-	margin-right: 10px;
-}
-#soudcloud{
-	width: 55px;
-	margin-right: 10px;
-}
-
-.events{
-	/*height: 730px;*/
-	width: 700px;
-	margin-top: 20px;
-	margin-left: 40px;
-	position: relative;
-	/*border: 2px solid #FF6666;*/
-	border-radius: 5px;
-	padding: 5px 0px 0px 5px;
-	display: none;
-}
-
-.events li{
-	margin-top: 20px;
-}
-
-.event{
-	width: 400px;
-	height: 600px;
-	margin: 0 auto;
-}
-
-.hot{
-	height: 500px;
-	width: 700px;
-	margin-top: 20px;
-	margin-left: 40px;
-	position: relative;
-	/*border: 2px solid #FF6666;*/
-	border-radius: 5px;
-	padding: 5px 0px 0px 5px;
-	text-align: center;
-	display: none;
-}
-
-.artistbio{
-	height: 300px;
-	width: 700px;
-	margin-top: 20px;
-	margin-left: 40px;
-	position: relative;
-	/*border: 2px solid #FF6666;*/
-	border-radius: 5px;
-	padding: 5px 0px 0px 5px;
-	display: none;
-}
-
-.gallery{
-	height:450px;
-	width: 600px;
-	margin-top: 20px;
-	margin-left: 40px;
-	position: relative;
-/*	border: 2px solid #FF6666;
-*/	border-radius: 5px;
-	padding: 5px 0px 0px 5px;
-	display: none;
-}
-
-.galleria{
-	width: 600px;
-	height: 400px;
-
 }
 
 .title{
@@ -209,6 +107,112 @@ a:link{
 	font-weight: bold;
 	font-size: 18px; 
 }
+
+.main{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.aboutblurb{
+	height: 250px;
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 40px;
+	position: relative;
+	border-radius: 5px;
+	padding: 5px 0px 0px 5px;
+}
+
+.social{
+	padding-top: 20px;
+	height: 50px;
+	width: 200px;
+	
+}
+
+.social a{
+	text-decoration: none;
+}
+
+#facebook{
+	width: 55px;
+	margin-right: 10px;
+}
+
+#instagram{
+	width: 55px;
+	margin-right: 10px;
+}
+#soudcloud{
+	width: 55px;
+	margin-right: 10px;
+}
+
+.events{
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 40px;
+	position: relative;
+	border-radius: 5px;
+	padding: 5px 0px 0px 5px;
+	display: none;
+}
+
+.events li{
+	margin-top: 20px;
+}
+
+.event{
+	width: 400px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.hot{
+	height: 500px;
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 40px;
+	position: relative;
+	border-radius: 5px;
+	padding: 5px 0px 0px 5px;
+	text-align: center;
+	display: none;
+}
+
+.artistbio{
+	height: 300px;
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 40px;
+	position: relative;
+	border-radius: 5px;
+	padding: 5px 0px 0px 5px;
+	display: none;
+}
+
+.gallery{
+	height:450px;
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 40px;
+	position: relative;
+	border-radius: 5px;
+	padding: 5px 0px 0px 5px;
+	display: none;
+}
+
+.galleria{
+	width: 600px;
+	height: 400px;
+
+}
+
+/*#galleria{ 
+	width: 600px; 
+	height: 400px; 
+}*/
 
 .date{
 	color: #FF6666;
