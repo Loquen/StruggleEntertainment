@@ -63,6 +63,39 @@ body{
 	margin: 0 auto;
 }
 
+ul#list-nav {
+  margin:0 auto;
+  padding:20px;
+  list-style:none;
+  width:825px;
+}
+
+ul#list-nav li {
+  display:inline;
+  font-size: 18px;
+  font-weight: bold;
+  background:black;
+  color: #FF6666;
+}
+
+ul#list-nav li span {
+ text-decoration:none;
+ padding:5px 0;
+ margin: 5px;
+ margin-bottom: 20px;
+ width:150px;
+ 
+ float:left;
+ text-align:center;
+ border:2px solid #FF6666;
+ border-radius: 3px;
+}
+
+ul#list-nav li span:hover {
+  background:#FF6666;
+  color:black;
+}
+
 .navigation {
 	padding: 20px;
 	text-align: center;
